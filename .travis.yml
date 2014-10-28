@@ -3,4 +3,6 @@ language: java
 jdk:
   - openjdk7
   - oraclejdk7
-
+script:
+  - ./gradlew check
+  - ./gradlew seleniumXvfb
